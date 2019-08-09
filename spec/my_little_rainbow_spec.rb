@@ -13,16 +13,9 @@ RSpec.describe 'Navigation and Nested Elements' do
     it 'contains a <head> tag to enclose the header' do
       head = parsed_html.search('html > head').first
 
-      expect(head.name).to eq('head'), "Always include a <head> tag in your HTML pages"
-
       expect(html_file_contents).to include('</head>'), "Don't forget the closing </head> tag!"
     end
 
-    context 'within <head>' do
-      it 'contains a <link> tag to our main.css file' do
-        link = parsed_html.search('html > head > link').first
-
-        expect(link.name).to eq('link'), "We need a <link> in our <head> section to connect our css"
 
       end
     end
