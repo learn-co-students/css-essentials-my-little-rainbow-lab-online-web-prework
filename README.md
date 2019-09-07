@@ -82,7 +82,7 @@ Here's an example of CSS styling:
 In the directory, you'll see three files: `index.html`, `main.css`, and this
 file, `README.md`. Start the web server using the `httpserver` command.  Using
 another tab in your browser, navigate to the "launched" web server and add
-`/index.html`. The URL should be something like `10.0.0.1:41234/index.html`.
+`/index.html`. The URL should be something like `.
 
 If everything is working correctly, you should see a white page.
 
