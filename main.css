@@ -22,3 +22,19 @@ div {
 #yellow {
   border-top: 20px solid yellow;
 }
+
+#green {
+  border-top: 20px solid green;
+}
+
+#blue {
+  border-top: 20px solid blue;
+}
+
+#indigo {
+  border-top: 20px solid #4b0082;
+}
+
+#violet {
+  border-top: 20px solid #6a0dad;
+}
